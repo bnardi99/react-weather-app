@@ -9,14 +9,35 @@ export default function App() {
         <Weather defaultCity="Tampa" />
 
         <footer>
-          This project was coded by Brenda Nardi and is{" "}
+          👩🏻‍💻{" "}
           <a
             href="https://github.com/bnardi99/react-weather-app"
             target="_blank"
             rel="noopener noreferrer"
           >
-            open-sourced on GitHub
-          </a>
+            Open-source code
+          </a>{" "}
+          by Brenda Nardi
+          <div>
+            ⛅ Using the{" "}
+            <a
+              href="https://openweathermap.org/current"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              OpenWeather API
+            </a>
+            <div>
+              🌐 Hosted on{" "}
+              <a
+                href="https://react-weather-app-bn.netlify.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Netlify
+              </a>
+            </div>
+          </div>
         </footer>
       </div>
     </div>
